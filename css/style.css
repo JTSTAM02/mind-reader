@@ -1,11 +1,4 @@
-.firstButton {
+.btn-circle {
     border-radius: 50%;
-    border-color: gray;
-    color: gray;
 }
-h1{
-    color: white;
-}
-.card-title {
-    text-align: center;
-}
+

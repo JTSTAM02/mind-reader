@@ -12,6 +12,7 @@
 * need Render Function
 * something to Randomize the Symbols **?**
 * List of Arrays for each slide **?**
+* Way to adjust refresh button **?**
 
 ## Start
 ## Init

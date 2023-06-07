@@ -22,3 +22,19 @@
   - Create arrays for state and pages **?**
   - JS Functions for state, render, and randomize **?**
 ## End
+
+## Functional
+- Create state array
+- create pages array
+- Use document.getElementById to link HTML and JS
+- function render-loop through carousal items, update each time with state from array
+- function randomize- shuffle the order of elements in state array **?**
+- function for refreshbutton
+- call functions when needed
+
+
+## OOP
+  ### All functions embedded into mindReader() **?**
+- function mindReader() {
+      var state =["slide 1", "slide 6"];
+  }

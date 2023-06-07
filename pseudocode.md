@@ -1,10 +1,10 @@
 # PseudoCode
 
 ## Key Terms
-  - State
+  - State (setState)
   - Render
   - Randomize
-
+  -possibly "buildUserInterface" or "getData" **?**
 
 # Needed
 * Need Carousel Format via Bootstrap
@@ -36,5 +36,12 @@
 ## OOP
   ### All functions embedded into mindReader() **?**
 - function mindReader() {
-      var state =["slide 1", "slide 6"];
+      var state =["slide 1",etc. "slide 6"];
+      
+      function render () {
+      for (var i = 0; i <pages.length; i ++) {
+        ?
+      }
+      
+      function randomize () {
   }

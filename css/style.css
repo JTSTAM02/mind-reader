@@ -1,4 +1,15 @@
 .btn-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-radius: 50%;
+    margin: auto;
+}
+* {
+    align-content: center;
+    margin: auto;
 }
 
+.newContent {
+    white-space: pre-line;
+}

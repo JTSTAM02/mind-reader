@@ -1,0 +1,21 @@
+.btn-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin: auto;
+}
+* {
+    text-align:  center;
+    margin: auto;
+}
+
+.newContent {
+    text-align: center;
+    white-space: pre-line;
+    margin-bottom: 10px;
+}
+
+.symbol-text {
+    font-size: 200px;
+}

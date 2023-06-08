@@ -4,8 +4,15 @@
     const text = document.getElementById("newContent");
     const additionalContent = document.getElementById("additionalContent");
     const additionalText = document.getElementById("additionalText");
-    const availableSymbols = ["1 - a", "2 - !", "3 - c", "4 - %", "5 - e", "6 - @", "7- $", "8 - ^", "9 - &"]
-
+    var availableSymbols = ["1 - a", 
+    "\n2 - !", 
+    "\n3 - c", 
+    "\n4 - %", 
+    "\n5 - e", 
+    "\n6 - @", 
+    "\n7- $", 
+    "\n8 - ^", 
+    "\n9 - &"];
     function randomSymbol() {
         const chosenSymbol = Math.floor(Math.random() * availableSymbols.length);
         return availableSymbols[chosenSymbol];
@@ -18,19 +25,12 @@
             var displayPages = this.pages[currentCard];
             document.querySelector(".card-title").textContent = displayText;
             document.querySelector(".newContent").textContent= displayPages; //
-
-            if(currentCard=== 2 || currentCard === 3) {
-                document.querySelector(".newContent").style.textAlign = "center";
-            } else {
-                document.querySelector(".newContent").style.textAlign = ""
-            }
-
-
+            document.querySelector(".newContent").style.textAlign = "center";
+            document.querySelector(".card-title").style.textAlign = "center";
         if(currentCard !== 0) {
             button1.textContent = "Next";
             additionalContent.style.display = "block";
             additionalText.style.display = "none";
-
         }
     }
 };

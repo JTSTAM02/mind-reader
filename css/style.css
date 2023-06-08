@@ -11,5 +11,7 @@
 }
 
 .newContent {
+    text-align: center;
     white-space: pre-line;
+    margin-bottom: 10px;
 }

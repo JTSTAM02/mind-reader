@@ -14,7 +14,7 @@
     "\n8 - ^", 
     "\n9 - &"];
     function randomSymbol() {
-        const chosenSymbol = Math.floor(Math.random() * availableSymbols.length);
+        const chosenSymbol = Math.floor(Math.random() * availableSymbols.length); //
         return availableSymbols[chosenSymbol];
     };
     const mindReader = {
@@ -24,7 +24,7 @@
             var displayText = this.text[currentCard]; //
             var displayPages = this.pages[currentCard];
             document.querySelector(".card-title").textContent = displayText;
-            document.querySelector(".newContent").textContent= displayPages; //
+            document.querySelector(".newContent").innerHTML= displayPages; //
             document.querySelector(".newContent").style.textAlign = "center";
             document.querySelector(".card-title").style.textAlign = "center";
         if(currentCard !== 0) {

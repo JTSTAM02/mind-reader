@@ -38,8 +38,9 @@
 
 ## OOP
   ### All functions embedded into mindReader() **?**
-- function mindReader() {
-      var state =["slide 1",etc. "slide 6"];
+- function buttonClick() {
+      if (currentCard == mindReader.pages.length) {
+        currentCard = 0;
       
       function render () {
       for (var i = 0; i <pages.length; i ++) {

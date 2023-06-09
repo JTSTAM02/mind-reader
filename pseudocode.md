@@ -43,9 +43,8 @@
         currentCard = 0;
       
       function render () {
-      for (var i = 0; i <pages.length; i ++) {
-        ?
+      for (var i = 0; i < symbols.length; i++) {
+      ?
       }
       
-      function randomize () {
   }

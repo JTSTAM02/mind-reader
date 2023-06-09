@@ -29,6 +29,7 @@
 - Create state array
 - create pages array
 - Use document.getElementById to link HTML and JS
+- function for button click to move to next page
 - function render-loop through card items, update each time with state from array
 - function randomize- to return a chosen symbol
 - function for refreshbutton

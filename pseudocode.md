@@ -1,34 +1,36 @@
 # PseudoCode
 
 ## Key Terms
-  - State (setState)
+  - State (setState) (implied in render function)
   - Render
   - Randomize
   -possibly "buildUserInterface" or "getData" **?**
 
 # Needed
-* Need Carousel Format via Bootstrap
-* Need State Function
+* Need CARD Format via Bootstrap
+* Need State Function (housed in object)
 * need Render Function
-* something to Randomize the Symbols **?**
-* List of Arrays for each slide **?**
-* Way to adjust refresh button **?**
+* something to Randomize the Symbols
+* List of Arrays for each slide 
+* Way to adjust refresh button
+* Way to adjust text for each slide
+* List of symbols for slide 5
 
 ## Start
 ## Init
-  - Create Bootstrap Layout (carousal) **?**
+  - Create Bootstrap Layout
   - Input HTML Elements (buttons, text headers, etc.)
-  - document.getElementById to link HTML elements to JavaScript
-  - Create arrays for state and pages **?**
-  - JS Functions for state, render, and randomize **?**
+  - link HTML elements to JavaScript
+  - Create arrays for pages and symbols
+  - JS Functions for refresh, render, and randomize **?**
 ## End
 
 ## Functional
 - Create state array
 - create pages array
 - Use document.getElementById to link HTML and JS
-- function render-loop through carousal items, update each time with state from array
-- function randomize- shuffle the order of elements in state array **?**
+- function render-loop through card items, update each time with state from array
+- function randomize- to return a chosen symbol
 - function for refreshbutton
 - call functions when needed
 
